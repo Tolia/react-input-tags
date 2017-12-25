@@ -11,10 +11,11 @@ export class TagDefault extends React.Component {
     handleEdit: PropTypes.func.isRequired,
     handleRemove: PropTypes.func.isRequired,
     TagClassName: PropTypes.string,
+    TagRemoveBtnClassName: PropTypes.string
   }
 
   static defaultProps = {
-    TagClassName: TagClassNameDefault,
+    TagRemoveBtnClassName: TagClassNameDefault,
   }
 
   render() {
@@ -28,11 +29,11 @@ export class TagDefault extends React.Component {
         >
           {value}
         </span>
-        <button
+        <span
           onClick={handleRemove}
+          className={TagRemoveBtnClassName}
         >
-          {'X'}
-        </button>
+        </span>
       </span>
     );
   }
