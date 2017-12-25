@@ -8,10 +8,9 @@ exports[`create token by typing non empty string and clicking on something else`
         onClick={[Function]}>
         insert another
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span>
       <span
@@ -75,10 +74,9 @@ exports[`create token by typing non empty string and pressing comma`] = `
         onClick={[Function]}>
         insert another
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span>
       <span
@@ -114,10 +112,9 @@ exports[`create token by typing non empty string and pressing enter`] = `
         onClick={[Function]}>
         insert another
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span>
       <span
@@ -181,10 +178,9 @@ exports[`create token by typing non empty string and pressing tab`] = `
         onClick={[Function]}>
         insert another
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span>
       <span
@@ -220,10 +216,9 @@ exports[`delete token by backspacing when input is empty`] = `
         onClick={[Function]}>
         delete me
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span>
       <span
@@ -259,10 +254,9 @@ exports[`delete token by clicking delete button`] = `
         onClick={[Function]}>
         delete me
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span>
       <span
@@ -298,10 +292,9 @@ exports[`edit token by clicking on tag`] = `
         onClick={[Function]}>
         edit me
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span>
       <span
@@ -421,10 +414,9 @@ exports[`move input to end by backspacing all content of middle tag and clicking
         onClick={[Function]}>
         start
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span
       className="react-input-tags-tag">
@@ -432,10 +424,9 @@ exports[`move input to end by backspacing all content of middle tag and clicking
         onClick={[Function]}>
         edit me
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span
       className="react-input-tags-tag">
@@ -443,10 +434,9 @@ exports[`move input to end by backspacing all content of middle tag and clicking
         onClick={[Function]}>
         end
       </span>
-      <button
-        onClick={[Function]}>
-        X
-      </button>
+      <span
+        className="react-input-tags-tag-del-btn del"
+        onClick={[Function]} />
     </span>
     <span>
       <span

@@ -41,7 +41,7 @@ describe('<TagDefault />', () => {
   describe('remove tag', () => {
     context('when button is clicked', () => {
       beforeEach(() => {
-        tagWrapper.find('button').simulate('click');
+        tagWrapper.find('span.del').simulate('click');
       });
 
       it('should remove the tag', () => {

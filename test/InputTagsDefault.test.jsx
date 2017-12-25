@@ -352,7 +352,7 @@ describe('<InputTagsDefault />', () => {
 
           beforeEach(() => {
             getTagValue.returns(tags[editTagIndex]);
-            inputTagsWrapper.find('button').at(editTagIndex).parent().childAt(0).simulate('click');
+            inputTagsWrapper.find('span.del').at(editTagIndex).parent().childAt(0).simulate('click');
           });
 
           it('should remove the current tag', () => {
@@ -391,7 +391,7 @@ describe('<InputTagsDefault />', () => {
           const inputValue = emptyString;
 
           beforeEach(() => {
-            inputTagsWrapper.find('button').at(editTagIndex).parent().childAt(0).simulate('click');
+            inputTagsWrapper.find('span.del').at(editTagIndex).parent().childAt(0).simulate('click');
             inputTagsWrapper.find('input').simulate('change', { target: { value: inputValue } });
           });
 
@@ -424,11 +424,11 @@ describe('<InputTagsDefault />', () => {
         );
       });
 
-      context('when `x` button is clicked', () => {
+      context('when span.del is clicked', () => {
         const removeTagIndex = 1;
 
         beforeEach(() => {
-          inputTagsWrapper.find('button').at(removeTagIndex).simulate('click');
+          inputTagsWrapper.find('span.del').at(removeTagIndex).simulate('click');
         });
 
         it('should remove token', () => {
@@ -474,7 +474,7 @@ describe('<InputTagsDefault />', () => {
           const removeTagIndex = 1;
 
           beforeEach(() => {
-            inputTagsWrapper.find('button').at(removeTagIndex).parent().childAt(0).simulate('click');
+            inputTagsWrapper.find('span.del').at(removeTagIndex).parent().childAt(0).simulate('click');
             inputTagsWrapper.find('input').simulate('change', { target: { value: emptyString } });
             inputTagsWrapper.find('input').simulate('keydown', { keyCode: backspaceKeyCode });
           });

@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { defaultClassNamePrefix } from './util';
 
 export const TagClassNameDefault = `${defaultClassNamePrefix}-tag`;
+export const TagRemoveBtnClassNameDefault = `${defaultClassNamePrefix}-tag-del-btn del`;
 
 export class TagDefault extends React.Component {
   static propTypes = {
@@ -15,11 +16,12 @@ export class TagDefault extends React.Component {
   }
 
   static defaultProps = {
-    TagRemoveBtnClassName: TagClassNameDefault,
+    TagClassName: TagClassNameDefault,
+    TagRemoveBtnClassName: TagRemoveBtnClassNameDefault
   }
 
   render() {
-    const { value, handleEdit, handleRemove, TagClassName } = this.props;
+    const { value, handleEdit, handleRemove, TagClassName, TagRemoveBtnClassName } = this.props;
     return (
       <span
         className={TagClassName}

@@ -5,10 +5,9 @@ exports[`edit item by clicking text`] = `
     onClick={[Function]}>
     apple
   </span>
-  <button
-    onClick={[Function]}>
-    X
-  </button>
+  <span
+    className="react-input-tags-tag-del-btn del"
+    onClick={[Function]} />
 </span>
 `;
 
@@ -19,9 +18,8 @@ exports[`remove item by clicking button`] = `
     onClick={[Function]}>
     apple
   </span>
-  <button
-    onClick={[Function]}>
-    X
-  </button>
+  <span
+    className="react-input-tags-tag-del-btn del"
+    onClick={[Function]} />
 </span>
 `;

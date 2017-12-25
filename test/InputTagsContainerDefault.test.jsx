@@ -69,7 +69,7 @@ describe('<InputTagsContainerDefault />', () => {
         const deleteTagIndex = 0;
 
         beforeEach(() => {
-          inputTagsContainerWrapper.find('button').at(deleteTagIndex).simulate('click');
+          inputTagsContainerWrapper.find('span.del').at(deleteTagIndex).simulate('click');
         });
 
         it('should update tags', () => {
